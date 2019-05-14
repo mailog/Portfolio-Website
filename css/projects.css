@@ -1,0 +1,84 @@
+.projects
+{	
+	width:100%;
+	margin-left: 0;
+	background-color: white;
+	text-align:center;
+}
+
+.projects-container
+{
+	width:100%;
+	background-color: white;
+	font-size: 1vw;
+}
+
+.projects img
+{
+	display:block;
+	margin: 0 auto;
+}
+
+.projects video
+{
+	display:block;
+	height: auto;
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.youtubecontainer
+{
+	position: relative;
+	margin: 0% auto;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+
+.youtubevideo
+{
+	position:absolute;
+	top: 0;
+	left: 0;	
+	width: 60%;
+	height: 60%;
+	margin-left: 20%;
+	margin-top: 10%;
+	margin-bottom: 0;
+	border-radius: 10px;
+	padding: 0;
+}
+
+
+.googleplay img
+{
+	width: 25%;
+	height: auto;
+	margin-right: 0 auto;
+}
+
+.game-title
+{
+	font-style: italic;
+	font-weight:bold;
+	color: #00CED1;
+}
+
+.project
+{
+	background-color: #E8E8E8;
+	vertical-align: top;
+	width: 65%;
+	display:inline-block;
+	border-radius: 10px;
+	padding: 2% 1%;
+	margin: 1% auto;
+}
+
+.project p
+{
+	margin-left: 5%;
+	width: 90%;
+}

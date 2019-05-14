@@ -1,0 +1,65 @@
+footer
+{
+	background-color: #F15F78;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 3;
+}
+
+.socialmedia
+{
+	border: none;
+	background-color: white;
+	width: 10%;
+	height: auto;
+	cursor: pointer;
+	margin-left: 17.5vw;
+	padding: 0;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px 1px #49242F;
+	 -webkit-transition: border-radius .5s, background-color .5s; /* Safari */
+  	transition: border-radius .5s, background-color .5s;
+}
+
+.socialmedia img
+{
+	margin: 5px;
+	width: auto;
+	height: 30px;
+}
+
+.socialmedia:hover
+{
+	border-radius: 50px;
+	background-color: #F9768C;
+	box-shadow: 1px 1px 5px 1px #49242F;
+}
+
+#socialbuttons
+{
+	background-color: #F15F78;
+	width: 100vw;
+	height: auto;
+	margin: 10px auto;
+}
+
+#GHButt:hover #GHIcon
+{
+	content:url("/images/GitHubIcon.png");
+}
+
+#TwitterButt:hover #TwitterIcon
+{
+	content:url("/images/TwitterIcon.png");
+}
+
+#InstaButt:hover #InstaIcon
+{
+	content:url("/images/InstagramIcon.png");
+}
+
+#YTButt:hover #YTIcon
+{
+	content:url("/images/YoutubeIcon.png");
+}

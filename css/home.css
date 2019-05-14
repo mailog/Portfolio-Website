@@ -1,0 +1,179 @@
+@font-face {
+  font-family: pixelmix;
+  src: url(fonts/pixelmix.ttf) format('truetype');
+}
+
+body{
+	background-color: white;
+	padding:0;
+	margin:0;
+	font-family: pixelmix;
+}
+
+a, button, input, textarea
+{
+	font-family: pixelmix;
+}
+
+#tippytop
+{
+	position: absolute;
+	top:0;
+}
+
+/*
+#snakecanvas
+{
+    border: 1px solid black;
+	display:inline-block;
+	margin:0;
+}
+
+#spacecanvas
+{
+    border: 1px solid black;
+	display:inline-block;
+	margin:0;
+}
+
+#froggercanvas
+{
+    border: 1px solid black;
+	display: inline-block;
+	margin:0;
+}
+
+#cosmicvoyage
+{
+	width:480px;
+	height:360px;
+}
+
+@media all and (max-width: 1000px) {
+	
+	.toolbar-txt
+	{
+		font-size: 3vw;
+	}
+	
+	.intro-container
+	{
+		font-size: 2vw;
+	}
+	
+	.projects-container
+	{
+		font-size: 1vw;
+	}
+	
+	
+	.intro
+	{	
+		width: 75%;
+	}
+	
+	.projects
+	{
+		width:80%;
+	}
+	
+	.box-container
+	{
+		margin-top: 15%;
+		width:80%;
+		height:30%;
+	}
+	
+	.info-container
+	{
+		font-size:3vw;	
+	}
+	
+	.details
+	{
+		width: 50%;
+	}
+	
+	.details-img
+	{
+		width: 6vw;
+		height: 6vw;
+	}
+	
+	#contact-form
+	{
+		font-size: 3vw;
+	}
+	
+	
+	#submit-butt
+	{
+		font-size:4vw;
+	}
+	
+	#inp-message
+	{
+		height: 15vh;
+	}
+	
+	.projects img
+	{
+		width: 640px;
+		height: 360px;
+	}
+}
+
+@media all and (max-width: 1000px) and (orientation: landscape) {
+	
+	.toolbar-txt
+	{
+		font-size: 2vw;
+	}
+	
+	#submit-butt
+	{
+		font-size:2vw;
+	}
+	
+	#contact-form
+	{
+		font-size: 1vw;
+	}
+	
+	#inp-message
+	{
+		height: 30vh;
+	}
+	
+	.details
+	{
+		width: 30%;
+	}
+	
+	.details p
+	{
+		font-size:2vw;
+	}
+	
+	.details-img
+	{
+		width: 3vw;
+		height: 3vw;
+	}
+	
+	.box-container
+	{
+		width: 80%;
+		height:60%;
+	}
+	
+}
+
+@media all and (min-width: 1000px)
+{
+	.toolbar_butt:hover .toolbar-txt
+	{
+		font-size:1.1vw;
+	}	
+	
+}*/

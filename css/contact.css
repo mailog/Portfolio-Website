@@ -1,0 +1,126 @@
+#contact
+{
+	width: 65%;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	margin: 0 auto;
+}
+
+.contact-info
+{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	color: #48D1CC;
+	font-size: 1vw;
+}
+
+.contact-info a
+{
+	color: #48D1CC;
+}
+
+#freelance
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25vw;
+	color:black;
+}
+
+.contact-container
+{
+	padding-top: 2vh;
+	width:100%;
+	background-color: white;
+	color:black;
+	font-size: 1vw;
+}
+
+#contact-form
+{
+	width:90%;
+	text-align: center;
+	margin: 2% auto;
+	font-size: 1vw;
+}
+
+#inp-name
+{
+	float:left;
+	width:49%;
+	margin-bottom: 1vh;
+}
+
+#inp-email
+{
+	float:right;
+	width:49%;
+	margin-bottom: 1vh;
+}
+
+#inp-subject
+{
+	width:100%;
+	margin-bottom: 1vh;
+}
+
+#inp-message
+{
+	width:100%;
+	height: 30vh;
+	padding:0;
+	resize: none;
+	overflow:hidden;
+}
+
+#submit-butt
+{
+	background-color: black;
+	border-style:none;
+	border-radius:5px;
+	color: 	white;
+	width: 20vw;
+	height: 5vw;
+	font-size: 2vw;
+	font-weight: 'bold';
+	margin-top: 3vh;
+}
+
+#submit-butt:hover
+{
+	background-color: white;
+	color:black;
+	cursor:pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.info-container
+{
+	width:100%;
+	background-color: white;
+	color:black;
+	font-size: 1vw;
+	font-weight: 'bold';
+	margin:0;
+}
+
+.details
+{
+	margin: 0 auto;
+	width: 20%;
+}
+
+.details p
+{
+	display:inline;
+}
+
+.details-img
+{
+	display:inline;
+	width: 1vw;
+	height: 1vw;
+}

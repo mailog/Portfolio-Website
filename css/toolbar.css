@@ -1,0 +1,57 @@
+@font-face {
+  font-family: pixelmix;
+  src: url(fonts/pixelmix.ttf) format('truetype');
+}
+
+#toolbar
+{
+	margin:0;
+	padding:0;
+	background-color:#4CFFFF;
+	position: fixed;
+	top:15%;
+	left:84.5%;
+	height: 50%;
+	width: 15%;
+	padding:0;
+	z-index:1;
+	border-radius: 10px;
+	font-family: pixelmix;
+}
+
+.toolbar_butt
+{
+	height:25%;
+	width:100%;
+	border-style:none;
+	font-weight:bold;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	padding:0 1%;
+	background:none;
+	margin: 0 auto;
+	color:#FF1493;
+}
+
+.toolbar-txt
+{
+	font-weight: bold;
+	font-size: 2.25vw;
+}
+
+#home-txt
+{
+	color: #ffd700;
+}
+
+.toolbar_butt:hover
+{
+	cursor:pointer;
+	color: #ffd700;
+}
+
+.toolbar a
+{
+	text-decoration:none;
+}

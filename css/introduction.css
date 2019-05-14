@@ -1,0 +1,26 @@
+
+.intro-container
+{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	width:100%;
+	background-color: white;
+	color:black;
+	font-size: 1vw;
+}
+
+.intro
+{	
+	background-color:white;
+	margin: 0 auto;
+	width: 65%;
+}
+
+.title
+{
+	text-align:center;
+	margin: 1% auto;
+	color: #00CED1;
+	font-size: 3vw;
+}
+
