@@ -14,6 +14,11 @@
 	<!-- <script src="js/snake.js"></script>
 	<script src="js/space.js"></script>
 	<script src="js/frogger.js"></script> -->
+	<script src="TemplateData/UnityProgress.js"></script>
+	<script src="Build/UnityLoader.js"></script>
+	<script>
+	var unityInstance = UnityLoader.instantiate("unityContainer", "Build/HTML5.json", {onProgress: UnityProgress});
+	</script>
 </head>
 <body>
 <div id="tippytop"></div>
@@ -800,13 +805,18 @@
 	<div class = "projects">
 		<h1 class = "title">Games</h1>
 		<div class = "project">
-			<h2 class = "game-title">The Legend of Nüdacus (2019)</h2>
-			<p> Created for <a href="https://ldjam.com/events/ludum-dare/45/the-legend-of-nudacus">Ludum Dare 45</a>. Theme of the Jam was "Start with Nothing". Made in about 48 hours. Collaborated with <a href="lnhlam.art">Lenny Lam</a> and <a href="https://www.youtube.com/user/JNguyenMusic1">GenuineMusic.</a></p>
+			<h2 class = "game-title">The Legend of Nudacus (2019)</h2>
+			<p> Created for <a href="https://ldjam.com/events/ludum-dare/45/the-legend-of-nudacus">Ludum Dare 45</a>. Theme of the Jam was "Start with Nothing". Made in about 48 hours. Collaborated with <a href="http://lnhlam.art">Lenny Lam</a> and <a href="https://www.youtube.com/user/JNguyenMusic1">GenuineMusic.</a></p>
 			<br/><br/>
 			<h4> Language: C# || Game Engine: Unity || Platforms: HTML5 </h4>
-			<div class = "youtubecontainer">
-				<iframe class="youtubevideo" src="https://www.kickstarter.com/projects/dummydojo/ninja-chowdown/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+		<div class="webgl-content">
+			<div id="unityContainer" style="width: 960px; height: 600px"></div>
+			<div class="footer">
+				<div class="webgl-logo"></div>
+				<div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+				<div class="title">Nudacus</div>
 			</div>
+		</div>
 		</div>
 		<div class = "project">
 			<h2 class = "game-title">Ninja Chowdown (2019)</h2>
