@@ -7,14 +7,13 @@
 {
 	margin:0;
 	padding:0;
-	background-color:#4CFFFF;
+	background: rgba(76, 255, 255, 125);
 	position: fixed;
 	top:15%;
 	left:84.5%;
 	height: 50%;
 	width: 15%;
 	padding:0;
-	opacity: 0.5;
 	z-index:1;
 	border-radius: 10px;
 	font-family: pixelmix;
