@@ -162,7 +162,7 @@ $(document).ready(function(){
 		else
 		{
 			$(".box").each(function(){
-				if(Math.random() >= 0.75)
+				if(Math.random() >= 0.25)
 				{
 				$(this).toggleClass("coloredBox");
 				}
