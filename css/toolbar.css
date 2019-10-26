@@ -41,6 +41,8 @@
 {
 	font-weight: bold;
 	font-size: 2.25vw;
+	text-decoration:underline;
+	text-decoration-color: #ffd700;
 }
 
 #home-txt
@@ -51,8 +53,6 @@
 .toolbar_butt:hover
 {
 	cursor:pointer;
-	text-decoration:underline;
-	text-decoration-color: #ffd700;
 }
 
 .toolbar a
