@@ -11,8 +11,8 @@ footer
 {
 	border: none;
 	background-color: white;
-	width: 10vw;
-	height: 10vw;
+	width: 10vh;
+	height: auto;
 	cursor: pointer;
 	margin-left: 17.5vw;
 	padding: 0;
