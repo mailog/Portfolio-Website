@@ -31,18 +31,6 @@ $(window).scroll(function(){
 	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#00CED1"; 
 	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#00CED1"; 
     }   
-	else if($(window).scrollTop() + $(window).height() === $(document).height())
-    {
-    	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
-		for(var i = 0; i < tmpToolbar.length; i++)
-		{
-			tmpToolbar[i].style.color = "#00CED1";
-		}
-		document.getElementById("contact-txt").style.color = "#ffd700";
-	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#ffd700"; 
-    }
     else if($(window).scrollTop() - 100 <= 0)
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
@@ -100,6 +88,18 @@ $(window).scroll(function(){
 			tmpToolbar[i].style.color = "#FF1493";
 		}
 		document.getElementById("contact-txt").style.color = "#ffd700";
+    }
+    else if($(window).scrollTop() + $(window).height() === $(document).height())
+    {
+    	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
+		for(var i = 0; i < tmpToolbar.length; i++)
+		{
+			tmpToolbar[i].style.color = "#00CED1";
+		}
+		document.getElementById("contact-txt").style.color = "#ffd700";
+	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#00CED1"; 
+	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#00CED1"; 
+	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#ffd700"; 
     }
     else if($(window).scrollTop() + $(window).height() === $(document).height())
     {
