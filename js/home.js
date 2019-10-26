@@ -1,7 +1,7 @@
 var lastScrollTop = 0;
 var st;
 
-function scrollToAnchor(aid){
+/*function scrollToAnchor(aid){
     $('html,body').animate({scrollTop: $("#" + aid.toString()).offset().top},'slow');
 }
 
@@ -17,7 +17,7 @@ $(window).scroll(function(){
 			tmpToolbar[i].style.color = "#00CED1";
 		}
 		document.getElementById("contact-txt").style.color = "#ffd700";
-    }*/   
+    }   
     if(isScrolledInto($('#hello'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
@@ -81,7 +81,7 @@ $(window).scroll(function(){
 			tmpToolbar[i].style.color = "#FF1493";
 		}
 		document.getElementById("contact-txt").style.color = "#ffd700";
-    }*/
+    }
     lastScrollTop = st <= 0 ? 0 : st;
 });
 
@@ -96,7 +96,7 @@ function isScrolledInto(elem,tlbr)
 	var elemTop = $(elem).position().top;
 	var elemBot = $(elem).position().top + $(elem).outerHeight(true);
     return ((tlbr > elemTop) && (tlbr < elemBot));
-}
+}*/
 
 $(document).ready(function(){
     $(".box").on("mouseover", function(){
