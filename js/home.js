@@ -152,11 +152,11 @@ $(document).ready(function(){
 		hello = !hello;
 		if(hello)
 		{
-			$(".box").each(function(){		
-				$(this).toggleClass("coloredBox");
+			$(".coloredBox").each(function(){		
+				$(this).toggleClass("box");
 			});
-			$(".messageBox").each(function(){
-				$(this).toggleClass("coloredMessageBox");
+			$(".coloredMessageBox").each(function(){
+				$(this).toggleClass("messageBox");
 			});
 		}
 		else
