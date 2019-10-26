@@ -14,7 +14,7 @@ $(window).scroll(function(){
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
     	for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#FF1493";
+			tmpToolbar[i].style.color = "#00CED1";
 		}
 		document.getElementById("contact-txt").style.color = "#ffd700";
     }*/   
@@ -23,7 +23,7 @@ $(window).scroll(function(){
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 		for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#FF1493";
+			tmpToolbar[i].style.color = "#00CED1";
 		}
 		document.getElementById("home-txt").style.color = "#ffd700";
     }    
@@ -32,7 +32,7 @@ $(window).scroll(function(){
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 		for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#FF1493";
+			tmpToolbar[i].style.color = "#00CED1";
 		}
 		document.getElementById("home-txt").style.color = "#ffd700";
     }
@@ -41,7 +41,7 @@ $(window).scroll(function(){
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 		for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#FF1493";
+			tmpToolbar[i].style.color = "#00CED1";
 		}
 		document.getElementById("intro-txt").style.color = "#ffd700";
     }
@@ -59,7 +59,7 @@ $(window).scroll(function(){
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
     	for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#FF1493";
+			tmpToolbar[i].style.color = "#00CED1";
 		}
 		document.getElementById("projects-txt").style.color = "#ffd700";
     }    
@@ -68,7 +68,7 @@ $(window).scroll(function(){
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 		for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#FF1493";
+			tmpToolbar[i].style.color = "#00CED1";
 		}
 		document.getElementById("contact-txt").style.color = "#ffd700";
     }
