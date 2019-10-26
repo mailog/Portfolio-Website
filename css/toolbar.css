@@ -48,11 +48,6 @@
 	text-decoration:none;
 }
 
-.toolbar-txt:hover
-{
-	text-decoration:underline;
-	text-decoration-color: #ffd700;
-}
 
 #home-txt
 {
@@ -64,3 +59,9 @@
 	cursor:pointer;
 }
 
+
+.toolbar-txt:hover
+{
+	text-decoration:underline;
+	text-decoration-color: #ffd700;
+}
