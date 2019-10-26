@@ -168,7 +168,7 @@ $(document).ready(function(){
 				}
 			});
 			$(".messageBox").each(function(){
-				if(Math.random() >= 0.75)
+				if(Math.random() >= 0.5)
 				{
 					$(this).toggleClass("coloredMessageBox");
 				}
