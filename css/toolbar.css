@@ -41,6 +41,15 @@
 {
 	font-weight: bold;
 	font-size: 2.25vw;
+}
+
+.toolbar a
+{
+	text-decoration:none;
+}
+
+.toolbar-txt:hover
+{
 	text-decoration:underline;
 	text-decoration-color: #ffd700;
 }
@@ -55,7 +64,3 @@
 	cursor:pointer;
 }
 
-.toolbar a
-{
-	text-decoration:none;
-}
