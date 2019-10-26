@@ -1,6 +1,5 @@
 var lastScrollTop = 0;
 var st;
-document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#ffd700"; 
 
 function scrollToAnchor(aid){
     $('html,body').animate({scrollTop: $("#" + aid.toString()).offset().top},'slow');
