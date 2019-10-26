@@ -51,7 +51,8 @@
 .toolbar_butt:hover
 {
 	cursor:pointer;
-//	color: #ffd700;
+	text-decoration:underline;
+	text-decoration-color: #ffd700;
 }
 
 .toolbar a
