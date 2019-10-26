@@ -162,13 +162,13 @@ $(document).ready(function(){
 		else
 		{
 			$(".box").each(function(){
-				if(Math.random() >= 0.25)
+				if(Math.random() >= 0.5)
 				{
 				$(this).toggleClass("coloredBox");
 				}
 			});
 			$(".messageBox").each(function(){
-				if(Math.random() >= 0.25)
+				if(Math.random() >= 0.5)
 				{
 					$(this).toggleClass("coloredMessageBox");
 				}
