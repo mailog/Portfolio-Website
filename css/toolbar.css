@@ -28,7 +28,7 @@
 	border-style:none;
 	font-weight:bold;
 	display:block;
-	text-decoration:none;
+//	text-decoration:none;
 	text-align:center;
 	padding:0 1%;
 	background:none;
@@ -45,7 +45,7 @@
 
 .toolbar a
 {
-	text-decoration:none;
+//	text-decoration:none;
 }
 
 
