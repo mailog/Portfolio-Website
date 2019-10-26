@@ -11,10 +11,10 @@ footer
 {
 	border: none;
 	background-color: white;
-	height: 10vh;
-	width: auto;
+	width: 10vh;
+	height: auto;
 	cursor: pointer;
-	margin-left: 17.5vw;
+	margin-left: 17.5vh;
 	padding: 0;
 	border-radius: 4px;
 	box-shadow: 1px 1px 5px 1px #49242F;
