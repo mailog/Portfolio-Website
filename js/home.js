@@ -1,5 +1,6 @@
 var lastScrollTop = 0;
 var st;
+var hello = true;
 
 function scrollToAnchor(aid){
     $('html,body').animate({scrollTop: $("#" + aid.toString()).offset().top},'slow');
@@ -148,17 +149,29 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	document.onclick = function(){
-		$(".box").each(function(){
-			if(Math.random() >= 0.75)
-			{
-	        	$(this).toggleClass("coloredBox");
-			}
-		});
-		$(".messageBox").each(function(){
-			if(Math.random() >= 0.75)
-			{
+		if(hello)
+		{
+			$(".box").each(function(){		
+				$(this).toggleClass("coloredBox");
+			});
+			$(".messageBox").each(function(){
 				$(this).toggleClass("coloredMessageBox");
-			}
-		});
+			});
+		}
+		else
+		{
+			$(".box").each(function(){
+				if(Math.random() >= 0.75)
+				{
+				$(this).toggleClass("coloredBox");
+				}
+			});
+			$(".messageBox").each(function(){
+				if(Math.random() >= 0.75)
+				{
+					$(this).toggleClass("coloredMessageBox");
+				}
+			});
+		}
 	}
 });
