@@ -137,15 +137,14 @@ $(document).ready(function(){
     		$(this).toggleClass("coloredBox");
     	}
     });
-});
-
-$(document).ready(function(){
+	
     $(".messageBox").on("mouseover", function(){
     	if(this.className == "messageBox"){
     		$(this).toggleClass("coloredMessageBox");
     	}
     });
 });
+
 
 $(document).ready(function(){
 	document.onclick = function(){
