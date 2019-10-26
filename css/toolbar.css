@@ -60,7 +60,7 @@
 }
 
 
-#toolbar a:hover .toolbar-txt
+#toolbar a:hover p
 {
 	text-decoration:underline;
 	text-decoration-color: #ffd700;
