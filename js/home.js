@@ -18,15 +18,7 @@ $(window).scroll(function(){
 		}
 		document.getElementById("contact-txt").style.color = "#ffd700";
     }
-     else if(isScrolledInto($('#intro'),$('#toolbar')))
-    {
-    	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
-		for(var i = 0; i < tmpToolbar.length; i++)
-		{
-			tmpToolbar[i].style.color = "#00CED1";
-		}
-		document.getElementById("intro-txt").style.color = "#ffd700";
-    }*/   
+    */   
     if(isScrolledInto($('#hello'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
@@ -37,6 +29,15 @@ $(window).scroll(function(){
 		document.getElementById("home-txt").style.color = "#ffd700";
     }    
     else if($(window).scrollTop() - 100 <= 0)
+    {
+    	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
+		for(var i = 0; i < tmpToolbar.length; i++)
+		{
+			tmpToolbar[i].style.color = "#00CED1";
+		}
+		document.getElementById("home-txt").style.color = "#ffd700";
+    } 
+	else if(isScrolledInto($('#intro'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 		for(var i = 0; i < tmpToolbar.length; i++)
