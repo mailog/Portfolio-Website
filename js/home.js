@@ -153,10 +153,10 @@ $(document).ready(function(){
 		if(hello)
 		{
 			$(".coloredBox").each(function(){		
-				$(this).toggleClass("box");
+				$(this).toggleClass("coloredBox");
 			});
 			$(".coloredMessageBox").each(function(){
-				$(this).toggleClass("messageBox");
+				$(this).toggleClass("coloredMessageBox");
 			});
 		}
 		else
