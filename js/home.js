@@ -149,6 +149,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	document.onclick = function(){
+		hello = !hello;
 		if(hello)
 		{
 			$(".box").each(function(){		
