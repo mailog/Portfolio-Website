@@ -22,21 +22,24 @@ $(window).scroll(function(){
     if(isScrolledInto($('#hello'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
-		for(var i = 0; i < tmpToolbar.length; i++)
-		{
-			tmpToolbar[i].style.color = "#00CED1";
-		}
-		document.getElementById("home-txt").style.color = "#ffd700";
+	for(var i = 0; i < tmpToolbar.length; i++)
+	{
+		tmpToolbar[i].style.color = "#00CED1";
+	}
+	document.getElementById("home-txt").style.color = "#ffd700";
+	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#ffd700"; 
     }    
     else if($(window).scrollTop() - 100 <= 0)
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
-		for(var i = 0; i < tmpToolbar.length; i++)
-		{
-			tmpToolbar[i].style.color = "#00CED1";
-		}
-		document.getElementById("home-txt").style.color = "#ffd700";
-    } else if(isScrolledInto($('#projects'),$('#toolbar')))
+	for(var i = 0; i < tmpToolbar.length; i++)
+	{
+		tmpToolbar[i].style.color = "#00CED1";
+	}
+	document.getElementById("home-txt").style.color = "#ffd700";
+	docu
+    } 
+	else if(isScrolledInto($('#projects'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
     	for(var i = 0; i < tmpToolbar.length; i++)
