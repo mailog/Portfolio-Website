@@ -17,14 +17,14 @@
 
 .title
 {
+	text-align:center;
+	margin: 1% auto;
 	color: #00CED1;
+	font-size: 3vw;
 }
 
 #intro .title
 {
-	text-align:center;
-	margin: 1% auto;
 	color: #ffd700;
-	font-size: 3vw;
 }
 
