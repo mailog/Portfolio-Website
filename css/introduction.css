@@ -17,6 +17,11 @@
 
 .title
 {
+	
+}
+
+#intro .title
+{
 	text-align:center;
 	margin: 1% auto;
 	color: #ffd700;
