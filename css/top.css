@@ -54,11 +54,13 @@
 
 .coloredBox
 {
+	background-color: #00ffff;
 	/*background-color: #dfbf9f;*/
-	opacity: 0;
+	/*opacity: 0;*/
 }
 
 .coloredMessageBox
 {
-	opacity: 0;
+	background-color: #ff69b4;
+	/*opacity: 0;*/
 }
