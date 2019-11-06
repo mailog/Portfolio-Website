@@ -153,7 +153,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	document.onclick = function(){
 		hello = !hello;
-		/*if(hello)
+		if(hello)
 		{
 			$(".coloredBox").each(function(){		
 				$(this).toggleClass("coloredBox");
@@ -163,13 +163,13 @@ $(document).ready(function(){
 			});
 		}
 		else
-		{*/
+		{
 			$(".box").each(function(){
 				$(this).toggleClass("coloredBox");
 			});
 			$(".messageBox").each(function(){
 					$(this).toggleClass("coloredMessageBox");
 			});
-		//}
+		}
 	}
 });
