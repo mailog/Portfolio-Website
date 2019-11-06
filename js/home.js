@@ -155,20 +155,20 @@ $(document).ready(function(){
 		hello = !hello;
 		if(hello)
 		{
-			$(".coloredBox").each(function(){		
-				$(this).toggleClass("coloredBox");
+			$(".box").each(function(){
+				$(this).toggleClass("coloredBox", true);
 			});
-			$(".coloredMessageBox").each(function(){
-				$(this).toggleClass("coloredMessageBox");
+			$(".messageBox").each(function(){
+					$(this).toggleClass("coloredMessageBox", true);
 			});
 		}
 		else
 		{
 			$(".box").each(function(){
-				$(this).toggleClass("coloredBox");
+				$(this).toggleClass("coloredBox", false);
 			});
 			$(".messageBox").each(function(){
-					$(this).toggleClass("coloredMessageBox");
+					$(this).toggleClass("coloredMessageBox", false);
 			});
 		}
 	}
