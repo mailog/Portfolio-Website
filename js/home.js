@@ -143,6 +143,18 @@ $(document).ready(function(){
     		$(this).toggleClass("coloredMessageBox");
     	}
     });
+	
+	$(".coloredBox").on("mouseover", function(){
+    	if(this.className == "coloredBox"){
+    		$(this).toggleClass("coloredBox");
+    	}
+    });
+	
+    $(".coloredMessageBox").on("mouseover", function(){
+    	if(this.className == "coloredMessageBox"){
+    		$(this).toggleClass("coloredMessageBox");
+    	}
+    });
 });
 
 
