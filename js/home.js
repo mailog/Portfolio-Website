@@ -148,7 +148,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	document.onclick = function(){
-		hello = true;
+		hello = !hello;
 		if(hello)
 		{
 			$(".coloredBox").each(function(){		
