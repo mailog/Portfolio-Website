@@ -133,27 +133,19 @@ function isScrolledInto(elem,tlbr)
 
 $(document).ready(function(){
     $(".box").on("mouseover", function(){
-    	if(this.className == "box"){
     		$(this).toggleClass("coloredBox");
-    	}
     });
 	
     $(".messageBox").on("mouseover", function(){
-    	if(this.className == "messageBox"){
     		$(this).toggleClass("coloredMessageBox");
-    	}
     });
 	
 	$(".coloredBox").on("mouseover", function(){
-    	if(this.className == "coloredBox"){
     		$(this).toggleClass("coloredBox");
-    	}
     });
 	
     $(".coloredMessageBox").on("mouseover", function(){
-    	if(this.className == "coloredMessageBox"){
     		$(this).toggleClass("coloredMessageBox");
-    	}
     });
 });
 
