@@ -38,7 +38,7 @@
 	margin:0px;
 	padding:0px;
 	float:left;
-	background-color: #F15F78;
+	background-color: #F9768C;
 }
 
 .messageBox
@@ -61,6 +61,6 @@
 
 .coloredMessageBox
 {
-	background-color: #F15F78;
+	background-color: #F9768C;
 	/*opacity: 0;*/
 }
