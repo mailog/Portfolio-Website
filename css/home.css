@@ -11,6 +11,21 @@ body{
 	color: white;
 }
 
+#gameplaygifs
+{
+	width: 75%;
+	margin:  0 auto;
+}
+
+#gameplaygifs img
+{
+	display: inline-block;
+	width: 49%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
 a, button, input, textarea
 {
 	font-family: pixelmix;
