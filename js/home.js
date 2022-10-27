@@ -1,6 +1,8 @@
 var lastScrollTop = 0;
 var st;
 var hello = true;
+var selectedColor = "#fac311";
+var unselectedColor = "#828282";
 
 function scrollToAnchor(aid){
     $('html,body').animate({scrollTop: $("#" + aid.toString()).offset().top},2000);
@@ -25,60 +27,60 @@ $(window).scroll(function(){
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 	for(var i = 0; i < tmpToolbar.length; i++)
 	{
-		tmpToolbar[i].style.color = "#00CED1";
+		tmpToolbar[i].style.color = unselectedColor;
 	}
-	document.getElementById("home-txt").style.color = "#ffd700";
-	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#ffd700"; 
-	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#00CED1"; 
+	document.getElementById("home-txt").style.color = selectedColor;
+	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = selectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     }   
     else if($(window).scrollTop() - 100 <= 0)
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 	for(var i = 0; i < tmpToolbar.length; i++)
 	{
-		tmpToolbar[i].style.color = "#00CED1";
+		tmpToolbar[i].style.color = unselectedColor;
 	}
-	document.getElementById("home-txt").style.color = "#ffd700";
-	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#ffd700"; 
-	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#00CED1"; 
+	document.getElementById("home-txt").style.color = selectedColor;
+	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = selectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     } 
 	else if(isScrolledInto($('#projects'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
     	for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#00CED1";
+			tmpToolbar[i].style.color = unselectedColor;
 		}
-		document.getElementById("projects-txt").style.color = "#ffd700";
-	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#ffd700"; 
-	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#00CED1"; 
+		document.getElementById("projects-txt").style.color = selectedColor;
+	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = selectedColor; 
+	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     }    
 	else if(isScrolledInto($('#intro'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 		for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#00CED1";
+			tmpToolbar[i].style.color = unselectedColor;
 		}
-		document.getElementById("home-txt").style.color = "#ffd700";
-	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#ffd700"; 
-	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#00CED1"; 
+		document.getElementById("home-txt").style.color = selectedColor;
+	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = selectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     }
     else if(isScrolledInto($('#contact'),$('#toolbar')))
     {
     	var tmpToolbar = document.getElementsByClassName("toolbar-txt");
 		for(var i = 0; i < tmpToolbar.length; i++)
 		{
-			tmpToolbar[i].style.color = "#00CED1";
+			tmpToolbar[i].style.color = unselectedColor;
 		}
-		document.getElementById("contact-txt").style.color = "#ffd700";
-	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = "#00CED1"; 
-	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = "#ffd700"; 
+		document.getElementById("contact-txt").style.color = selectedColor;
+	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = selectedColor; 
     }
     lastScrollTop = st <= 0 ? 0 : st;
 });
