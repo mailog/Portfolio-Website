@@ -2,15 +2,15 @@
 .intro-container
 {
 	width:100%;
-	background-color: #2a2a2a;
-	color:white;
+	background-color: #ffffff;
+	color:black;
 	font-size: 1vw;
 }
 
 .intro
 {	
 	text-align:center;
-	background-color:#2a2a2a;
+	background-color:#ffffff;
 	margin: 0 auto;
 	width: 65%;
 }
@@ -19,12 +19,13 @@
 {
 	text-align:center;
 	margin: 1% auto;
-	color: #00CED1;
+	color: black;
 	font-size: 3vw;
+	transition: ease 0.5s;
 }
 
 #intro .title
 {
-	color: #ffd700;
+	color: #fac311;
 }
 

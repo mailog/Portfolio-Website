@@ -1,13 +1,17 @@
 #contact
 {
-	width: 35%;
+	height: 70%;
+	width: 50%;
 	margin: 0 auto;
-	padding-top: 5%;
+	padding-top: 2.5%;
 	padding-bottom: 5%;
+	color:black;
+	text-align: center;
 }
 
 .contact-info
 {
+	color:black;
 	text-align: center;
 	font-style: italic;
 	font-weight: bold;
@@ -30,8 +34,8 @@
 {
 	padding-top: 2vh;
 	width:100%;
-	background-color: #2a2a2a;
-	color:white;
+	background-color: white;
+	color:black;
 	font-size: 1vw;
 }
 
@@ -39,7 +43,7 @@
 {
 	width:90%;
 	text-align: center;
-	margin: 2% auto;
+	margin: 2%;
 	font-size: 1vw;
 }
 
@@ -66,7 +70,7 @@
 #inp-message
 {
 	width:100%;
-	height: 15vh;
+	height: 50%;
 	padding:0;
 	resize: none;
 	overflow:hidden;
@@ -99,7 +103,7 @@
 {
 	width:100%;
 	background-color: white;
-	color:color;
+	color:black;
 	font-size: 1vw;
 	font-weight: 'bold';
 	margin:0;

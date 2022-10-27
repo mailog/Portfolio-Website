@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: #2a2a2a;
+	background-color: #ffffff;
 	padding:0;
 	margin:0;
 	font-family: pixelmix;
@@ -14,7 +14,31 @@ body{
 #gameplaygifs
 {
 	width: 75%;
-	margin:  0 auto;
+	margin: 0 auto;
+}
+
+#tl
+{
+	border: 1px;
+	border-top-left-radius: 15px;
+}
+
+#tr
+{
+	border: 1px;
+	border-top-right-radius: 15px;
+}
+
+#br
+{
+	border: 1px;
+	border-bottom-right-radius: 15px;
+}
+
+#bl
+{
+	border: 1px;
+	border-bottom-left-radius: 15px;
 }
 
 #gameplaygifs img

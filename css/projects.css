@@ -1,6 +1,7 @@
 .projects
 {	
 	width:100%;
+	padding: 1% 0;
 	margin-left: 0;
 	background-color: #2a2a2a;
 	text-align:center;
@@ -31,10 +32,23 @@
 .youtubecontainer
 {
 	position: relative;
-	margin: 0% auto;
+	margin: 1% auto;
 	width: 100%;
 	height: 0;
 	padding-bottom: 56.25%;
+}
+
+
+.youtubevideo
+{
+	position:absolute;
+	top: 0;
+	left: 0;	
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	border-radius: 10px;
+	padding: 0;
 }
 
 .gamebadge
@@ -42,34 +56,20 @@
 	width: 25%;
 	height: auto;
 	margin: 0 auto;
+	display:inline-block;
 }
 
 .gamebadge img
 {
-	width: 25%;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	margin-top: 2%;
 }
 
-.youtubevideo
-{
-	position:absolute;
-	top: 0;
-	left: 0;	
-	width: 90%;
-	height: 90%;
-	margin-left: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	border-radius: 10px;
-	padding: 0;
-}
-
-
 .googleplay img
 {
-	width: 25%;
+	width: 100%;
 	height: auto;
 	margin-right: 0 auto;
 }
@@ -87,12 +87,13 @@
 	background-color: #E8E8E8;
 	color:black;
 	vertical-align: top;
-	width: 65%;
+	width: 60%;
+	height: 60%;
 	display:inline-block;
 	border-radius: 10px;
 	padding: 1% 1%;
 	margin: 1% auto;
-	transition: all 0.5s;
+	transition: all 0.1s;
 }
 
 .project p
@@ -119,6 +120,7 @@
 
 #cover
 {
-	width: 85%;
+	margin-top:1%;
+	width: 40%;
 	height: auto;
 }
