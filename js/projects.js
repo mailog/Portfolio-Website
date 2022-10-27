@@ -9,12 +9,10 @@ $(window).scroll(function(){
 		if(isScrolledInto(projects[i], $('#toolbar')))
 		{
 			projects[i].style.opacity = 1;
-			projects[i].style.left = '0';
 		}
 		else
 		{
 			projects[i].style.opacity = 0.5;
-			projects[i].style.left = '-80%';
 		}
 	}
 });
