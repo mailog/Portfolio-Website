@@ -83,13 +83,11 @@
 
 .project
 {
-	position: relative;
 	opacity: 0.5;
 	background-color: #E8E8E8;
 	color:black;
 	vertical-align: top;
 	width: 65%;
-	left: -80%;
 	display:inline-block;
 	border-radius: 10px;
 	padding: 1% 1%;
