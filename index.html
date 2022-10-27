@@ -8,37 +8,30 @@
 	<link rel="stylesheet" type="text/css" href="css/introduction.css">
 	<link rel="stylesheet" type="text/css" href="css/projects.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">	
-	<link rel="stylesheet" type="text/css" href="css/socialmedia.css">														
+	<link rel="stylesheet" type="text/css" href="css/socialmedia.css">		
+	<link rel="stylesheet" type="text/css" href="css/leftside.css">														
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/home.js"></script>
 	<script src="js/projects.js"></script>
+	<script src="js/leftside.js"></script>
 </head>
 <body>
 <div id="gameplaygifs">
-	<img src = "images/uu.gif"><img src = "images/nc.gif"><img src = "images/td.gif"><img src = "images/ds.gif">
+	<img id = "tl" src = "images/uu.gif"><img id = "tr" src = "images/nc.gif"><img id = "bl" src = "images/td.gif"><img id = "br" src = "images/ds.gif">
 </div>
 <div id="tippytop"></div>
 <div id ="hello"></div>
 <div id = "toolbar">
-	<a> <button class = "toolbar_butt" onclick="scrollToAnchor('tippytop')"> <p class = "toolbar-txt" id = "home-txt">Mark Ilog</p> </button> </a>
+	<a> <button class = "toolbar_butt" onclick="scrollToAnchor('tippytop')"> <p class = "toolbar-txt" id = "home-txt">Home</p> </button> </a>
 	<!--<a> <button class = "toolbar_butt" onclick="scrollToAnchor('intro')"> <p class = "toolbar-txt" id = "intro-txt">Who Am I?</p> </button> </a>-->
-	<a> <button class = "toolbar_butt" onclick="scrollToAnchor('projects')"> <p class = "toolbar-txt" id = "projects-txt">Projects</p> </button> </a>
+	<a> <button class = "toolbar_butt" onclick="scrollToAnchor('projects')"> <p class = "toolbar-txt" id = "projects-txt">My Games</p> </button> </a>
 	<a> <button class = "toolbar_butt" onclick="scrollToAnchor('contact')"> <p class = "toolbar-txt" id = "contact-txt">Contact</p> </button> </a>
 </div>
 
-<div id="socialbuttons">
-	<a href="https://twitter.com/dummydojo" target="_blank"><button id = "TwitterButt" class = "socialmedia"> 	
-		<img id = "TwitterIcon" src = "images/TwitterIconPink.png" target="_blank">
-	</button></a>
-	<a href = "https://github.com/mailog" target="_blank"><button id = "GHButt" class = "socialmedia"> 	
-		<img id = "GHIcon" src = "images/GitHubIconPink.png" target="_blank">
-	</button></a>
-	<a href="https://www.instagram.com/dummydojo/" target="_blank"><button id = "InstaButt" class = "socialmedia"> 	
-		<img id = "InstaIcon" src = "images/InstagramIconPink.png" target="_blank">
-	</button></a>	
-</div>
+<img id = "pixelpic" src = "images/pixelprofile.png">
+<img id = "profilepic" src = "images/profilepic.png">
 
-	<a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img id="megif" src = "images/me.gif"></a>
+<!--<a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img id="megif" src = "images/me.gif"></a>!-->
 
 
 <div id = "intro" class = "intro-container">
@@ -63,15 +56,15 @@
 
 <div id = "projects" class = "projects-container">
 	<div class = "projects">
-		<h1 class = "title">Projects</h1>
+		<h1 class = "title">My Games</h1>
 		<div class = "project">
 			<h2 class = "game-title">Underling Uprising (ONGOING)</h2><br/>
 			<p>A fast-paced cartoony Beat 'Em Up that we began developing in 2021. We will be having a Kickstarter campaign coming soon for it, so check it out!</p>
+			<br/>
+			<!--<a class="gamebadge" href='https://www.kickstarter.com/projects/dummydojo/underling-uprising-a-cartoony-2d-beat-em-up-free-demo?ref=clipboard-prelaunch' target="_blank"><img alt='Kickstarter' src="images/kickstartericon.png"/></a>
+			<a class="gamebadge" href='https://store.steampowered.com/app/1896760/Underling_Uprising/' target="_blank"><img alt='Available on Steam' src="images/steambutton.png"/></a> 
+			<a class="gamebadge" href='https://dummydojo.itch.io/underling-uprising-free-demo' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a>-->
 
-			<a class="gamebadge" href='https://www.kickstarter.com/projects/dummydojo/underling-uprising-a-cartoony-2d-beat-em-up-free-demo?ref=clipboard-prelaunch' target="_blank"><img alt='Kickstarter' src="images/kickstartericon.png"/></a>
-			<a class="gamebadge" href='https://store.steampowered.com/app/1896760/Underling_Uprising/' target="_blank"><img alt='Available on Steam' src="images/steambutton.png"/></a> </p> 
-			<a class="gamebadge" href='https://dummydojo.itch.io/underling-uprising-free-demo' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a> </p> 
-			
 			<br/>
 
 			<div class = "youtubecontainer">
@@ -81,8 +74,8 @@
 		<div class = "project">
 			<h2 class = "game-title">Demon Slayer Dan (2021)</h2><br/>
 			<p> A simple, but effective game about a fedora wearing, katana wielding cool guy fending off some demons for M'lady. Made for Sonicworkflow's game jam.</p>
-
-			<a class="gamebadge" href='https://dummydojo.itch.io/demon-slayer-dan' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a> </p> 
+			<br/>
+			<!--<a class="gamebadge" href='https://dummydojo.itch.io/demon-slayer-dan' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a>--> </p> 
 			
 			<br/>
 
@@ -93,25 +86,24 @@
 		<div class = "project">
 			<h2 class = "game-title">Ninja Chowdown (2020)</h2><br/>
 			<p> My first successful commerical game that was originally funded on Kickstarter. We worked with the publishing company, <a href="https://abylight.com/">Abylight Studios</a>, to release this game on mobile platforms. It has been released on Decemeber 3rd, 2020 on IOS and will be released on Android early 2021. It has been featured by the App Store, received overall great feedback, and has been downloaded tens of thousands of times so far.</p>
-
-			<a class="gamebadge" href='https://apps.apple.com/us/app/ninja-chowdown/id1529428332' target="_blank"><img alt='Available on App Store' src="images/appstorebadge.svg"/></a> 	
-			<a class="gamebadge" href='http://kck.st/2TNUO38' target="_blank"><img alt='Kickstarter' src="images/kickstartericon.png"/></a>
-			
 			<br/>
+			<!--<a class="gamebadge" href='https://apps.apple.com/us/app/ninja-chowdown/id1529428332' target="_blank"><img alt='Available on App Store' src="images/appstorebadge.svg"/></a> 	
+			<a class="gamebadge" href='http://kck.st/2TNUO38' target="_blank"><img alt='Kickstarter' src="images/kickstartericon.png"/></a>!-->
 			<a href = "https://drive.google.com/file/d/10vUcBbXOU-BqQyykYJopHaZ-kBPosbi8/view?usp=sharing">GAME DESIGN DOCUMENT</a>
 
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/ur-kUYaU-U4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
+			</div>			
 		</div>
 		<div class = "project">
 			<h2 class = "game-title">Undead Carnival Carnage (2020)</h2><br/>	
 			<p>Game I made for Ludum Dare 47 in a small team. The theme was 'Stuck in a Loop'. Our game is about a carnival attendant stuck in a carousel during a zombie apocalypse.</p>
 			<br/><br/>Placed 17th Overall, 52nd for Fun, 23rd for Mood, 5th for audio, and 1st for graphics.
-			<a class="gamebadge" href='https://dummydojo.itch.io/undead-carnival-carnage' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a> 
+			<br/>
+			<!--<a class="gamebadge" href='https://dummydojo.itch.io/undead-carnival-carnage' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a> 
 			
 			<a class="gamebadge" href='https://ldjam.com/events/ludum-dare/47/undead-carnival-carnage' target="_blank"><img src="images/ludumdare.png"/></a> </p> 
-			<br/>
+			<br/> !-->
 			
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/iV7sTwoBe6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -121,12 +113,11 @@
 			<h2 class = "game-title">Turtle Daddy (2020)</h2><br/>	
 			<p>Game I made for Ludum Dare 46. The theme was 'Keep It Alive', so my team and I made a game about protecting baby turtles. We were pretty happy with the feedback and loved the game idea, so we are working on it to become a full title.
 			<br/><br/>Placed 15th Overall and 20th for Fun.
-			<a class="gamebadge" href='https://dummydojo.itch.io/turtle-daddy' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a> 
-			
-			<a class="gamebadge" href='https://ldjam.com/events/ludum-dare/46/turtle-daddy' target="_blank"><img src="images/ludumdare.png"/></a> </p> 
 			<br/>
 			<a href = "https://docs.google.com/document/d/1JorPcGljpjTLMhO_gp5ClRVaxHf0Je3aOgbrOJdFTVY/edit?usp=sharing">GAME DESIGN DOCUMENT</a>
-			
+			<!--<a class="gamebadge" href='https://dummydojo.itch.io/turtle-daddy' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a> 
+			<a class="gamebadge" href='https://ldjam.com/events/ludum-dare/46/turtle-daddy' target="_blank"><img src="images/ludumdare.png"/></a> </p> !-->
+			<br/>
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/lfxmCq_mEmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
@@ -158,8 +149,8 @@
 			<p>I wanted to make a game using gyroscopes.
 			The primary experience I had with gyroscope mobile gaming was through playing Ridiculous Fishing, so I definitely took a lot
 				of inspiration from the game's smooth gyroscope controls.</p>
-			<a class="gamebadge" href='https://play.google.com/store/apps/details?id=com.DummyDojo.RadiOcean&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src="images/googleplaybadge.svg"/></a>
-			<a class="gamebadge" href='https://apps.apple.com/us/app/radi-ocean/id1494063604?ls=1' target="_blank"><img alt='Available on App Store' src="images/appstorebadge.svg"/></a> 	
+			<!--<a class="gamebadge" href='https://play.google.com/store/apps/details?id=com.DummyDojo.RadiOcean&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src="images/googleplaybadge.svg"/></a>
+			<a class="gamebadge" href='https://apps.apple.com/us/app/radi-ocean/id1494063604?ls=1' target="_blank"><img alt='Available on App Store' src="images/appstorebadge.svg"/></a> !-->
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/bLmN6phcJag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
@@ -170,17 +161,16 @@
 			<p> Created for Ludum Dare 45. The theme was "Start with Nothing", so my team and I made a game about a butt-naked gladiator.</p>
 			Placed 46th Overall and 31st for Fun.
 			
-			<a class="gamebadge" href='https://dummydojo.itch.io/the-legend-of-nudacus' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a>
+			<!--<a class="gamebadge" href='https://dummydojo.itch.io/the-legend-of-nudacus' target="_blank"><img alt='Available on itch.io' src="images/itchbadge.svg"/></a>
 			
-			<a class="gamebadge" href='https://ldjam.com/events/ludum-dare/45/the-legend-of-nudacus' target="_blank"><img src="images/ludumdare.png"/></a> 
-			
-			
+			<a class="gamebadge" href='https://ldjam.com/events/ludum-dare/45/the-legend-of-nudacus' target="_blank"><img src="images/ludumdare.png"/></a>-->
+			<br/>
 			<img id="cover" src="images/nudacuscover.jpg">
 		</div>
 		<div class = "project">
 			<h2 class = "game-title">5-Second Sumo (2018)</h2><br/>
 			<p> A small first project to learn more about app development and deployment. The gameplay revolves around feeding Carl the Sumo a variety of food from a conveyor belt.</p>
-			<a class="googleplay" href='https://play.google.com/store/apps/details?id=com.DummyDojo.Sumo&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img "alt='Get it on Google Play' src='images/googleplaybadge.svg'/></a>
+			<!--<a class="googleplay" href='https://play.google.com/store/apps/details?id=com.DummyDojo.Sumo&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img "alt='Get it on Google Play' src='images/googleplaybadge.svg'/></a>-->
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/g3nhQOxSIPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
@@ -209,7 +199,7 @@
 		<div class = "project">
 			<h2 class = "game-title">Project Pretend RPG (2016)</h2><br/>
 			<p> Was meant to be the basis for an overly ambitious 2D RPG. Definitely bit off more than I could chew at the time, especially since I was still attending college.
-			<br/><br/>
+			<br/>
 			Ended up implementing graphics, collision detection, movement, and simple over-world interactions. I learned a lot about the basic mechanics that go behind basic game development and gained a lot of respect and gratefulness for existing game engines that handle these interactions for you. Made using libGDX in Java.</p>
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/REkh-ifeHqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -221,6 +211,9 @@
 <div id = "contact">
 	<h1 id = "contact-title" class ="title"> Contact </h1>
 	<h4 class = "contact-info">m.ilog95@gmail.com</h4>
+	I'm open to freelance work! <br/>
+	Unity Game Development, Game Design, or Web Development! <br/>
+	Please don't hesitate to contact me! :)
 	<div  class = "contact-container">
 		<div id = "contact-form">
 			<form method="POST" action="https://formspree.io/m.ilog95@gmail.com">
@@ -232,7 +225,17 @@
 			</form>
 		</div>
 	</div>
+	</div>
+	<div id="socialbuttons"><a href="https://twitter.com/dummydojo" target="_blank"><button id = "TwitterButt" class = "socialmedia"> 	
+			<img id = "TwitterIcon" src = "images/TwitterIconPink.png" target="_blank">
+		</button></a><a href = "https://github.com/mailog" target="_blank"><button id = "GHButt" class = "socialmedia"> 	
+			<img id = "GHIcon" src = "images/GitHubIconPink.png" target="_blank">
+		</button></a><a href="https://www.instagram.com/dummydojo/" target="_blank"><button id = "InstaButt" class = "socialmedia"> 	
+			<img id = "InstaIcon" src = "images/InstagramIconPink.png" target="_blank">
+		</button></a>
 </div>
+
+
 	<!-- <div id = "info" class = "info-container">
 		<div class = "details">
 			<img src="@{/images/email.png}" class = "details-img"/><p> mister.ilog@gmail.com</p>
