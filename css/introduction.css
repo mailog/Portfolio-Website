@@ -1,3 +1,23 @@
+#stats
+{
+	width: 20%;
+	display: inline-block;
+	margin-left: 15%;
+}
+
+#chart
+{
+	width: 90%;
+	height: auto;
+	display:block;
+}
+
+#megif
+{
+	width: 90%;
+	height: auto;
+	display:block;
+}
 
 .intro-container
 {
@@ -9,10 +29,10 @@
 
 .intro
 {	
-	text-align:center;
+	display:inline-block;
 	background-color:#ffffff;
-	margin: 0 auto;
-	width: 65%;
+	width: 55%;
+	overflow-wrap: normal;
 }
 
 .title
@@ -27,5 +47,17 @@
 #intro .title
 {
 	color: #fac311;
+}
+
+#dummy
+{
+	width: 5%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.intro a
+{
+	width: 5%;
 }
 

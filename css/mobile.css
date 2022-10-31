@@ -1,0 +1,43 @@
+@media screen and (orientation: portrait)
+{	
+	.project
+	{
+		height: 35vh;
+	}
+
+	#profilepic
+	{
+		width: 13.5%;
+		top: 2.2%;
+		left: 2.4%;
+	}
+
+	#pixelpic
+	{
+		width: 18.75%;
+		top: 0%;
+		left: 0%;
+	}
+}
+
+@media screen and (orientation: landscape)
+{	
+	.project
+	{
+		height: 65vh;
+	}
+
+	#profilepic
+	{
+		width: 9%;
+		top: 3.5%;
+		left: 1.6%;
+	}
+
+	#pixelpic
+	{
+		width: 12.5%;
+		top: 0%;
+		left: 0%;
+	}
+}

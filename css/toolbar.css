@@ -12,9 +12,9 @@
 	//background: rgba(76, 255, 255, 0.25);
 	position: fixed;
 	top: 0%;
-	left:84.5%;
+	left:79.5%;
 	height: 100%;
-	width: 15%;
+	width: 20%;
 	padding:0;
 	z-index:1;
 	border-radius: 10px;
@@ -41,7 +41,7 @@
 .toolbar-txt
 {
 	font-weight: bold;
-	font-size: 1.5vw;
+	font-size: 2vw;
 	transition: ease 0.5s;
 }
 
