@@ -3,6 +3,7 @@
 	<link rel="shortcut icon" href="/images/markicon.ico">
 	<title>Mark Oliver Ilog</title>
 	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="css/toolbar.css">
 	<link rel="stylesheet" type="text/css" href="css/top.css">
 	<link rel="stylesheet" type="text/css" href="css/introduction.css">
@@ -31,20 +32,30 @@
 <img id = "pixelpic" src = "images/pixelprofile.png">
 <img id = "profilepic" src = "images/profilepic.png">
 
-<!--<a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img id="megif" src = "images/me.gif"></a>!-->
-
-
 <div id = "intro" class = "intro-container">
-	<h1 class = "title">Who am I?</h1>
-	<div class = "intro"> 
-		<br /><br/>
-		Greetings Traveler! 
-		<br /><br/>
-		My name's Mark Oliver Ilog.
+	<h1 class = "title">Character Sheet</h1>
+	<div id = "stats"><img id="megif" src = "images/me.gif"><img id="chart" src = "images/chart.png"></div>
+	<div class = "intro">
+		<br/>
+		<b>Name</b>: Mark Oliver Ilog
+		<br/><br/><br/>
+		<b>Primary Class</b>: Unity Game Developer
+		<br/><br/><br/>
+		<b>Secondary Class</b>: Web Developer
+		<br/><br/><br/>
+		<b>Skills</b>: C#, Java, Game Design, HTML, CSS, JavaScript
+		<br/><br/><br/>
+		<b>Location</b>: Los Angeles, California
+		<br/><br/><br/>
+		<b>Education</b>: Computer Science B.S. from Cal Poly Pomona
+		<br/><br/><br/>
+		<b>Favorite Games (no particular order)</b>: Binding of Isaac, Final Fantasy 7, Street Fighter III: Third Strike, Diablo 2, Hades
+		<br/><br/><br/>
+		<b>Favorite Genres</b>: Roguelite, Classic RPG, Fighting
+		<br/><br/><br/>
+		<b>Hobbies (Excluding games or programming)</b>: Hiking, Exercise, Travelling
 		<br/><br/>
-		I'm a Unity programmer and game designer.
-		<br/><br/>
-		I'm making games under the studio <a href="http://dummydojo.com/" target="_blank">Dummy Dojo</a>.
+		<b>Additional Notes</b>: Currently making games under the studio <b>Dummy Dojo</b>.<a href="http://dummydojo.com/" target="_blank"><img id = "dummy" src= "images/dummy.gif"></a>
 		<br/>
 		<br/>
 		<br/>
@@ -83,11 +94,9 @@
 		</div>
 		<div class = "project">
 			<h2 class = "game-title">Ninja Chowdown (2020)</h2>
-			<p> My first successful commerical game that was originally funded on Kickstarter. We worked with the publishing company, <a href="https://abylight.com/">Abylight Studios</a>, to release this game on mobile platforms. It has been released on Decemeber 3rd, 2020 on IOS and will be released on Android early 2021. It has been featured by the App Store, received overall great feedback, and has been downloaded tens of thousands of times so far.</p>
+			<p> An action, runner game about a Donut-loving ninja. We worked with the publishing company, <a href="https://abylight.com/">Abylight Studios</a>, to release this game on mobile platforms (IOS/Android). It has been featured on the App Store, received overall great reviews, and has been played a lot more than we originally expected so far.</p>
 			<!--<a class="gamebadge" href='https://apps.apple.com/us/app/ninja-chowdown/id1529428332' target="_blank"><img alt='Available on App Store' src="images/appstorebadge.svg"/></a> 	
 			<a class="gamebadge" href='http://kck.st/2TNUO38' target="_blank"><img alt='Kickstarter' src="images/kickstartericon.png"/></a>!-->
-			<a href = "https://drive.google.com/file/d/10vUcBbXOU-BqQyykYJopHaZ-kBPosbi8/view?usp=sharing">GAME DESIGN DOCUMENT</a>
-
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/ur-kUYaU-U4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>			
@@ -194,8 +203,7 @@
 		</div>
 		<div class = "project">
 			<h2 class = "game-title">Project Pretend RPG (2016)</h2>
-			<p> Was meant to be the basis for an overly ambitious 2D RPG. Definitely bit off more than I could chew at the time, especially since I was still attending college.
-			Ended up implementing graphics, collision detection, movement, and simple over-world interactions. I learned a lot about the basic mechanics that go behind basic game development and gained a lot of respect and gratefulness for existing game engines that handle these interactions for you. Made using libGDX in Java.</p>
+			<p> An overly ambitious 2D RPG project that I started while still attending college. I definitely bit off more than we could chew at the time. Ended up implementing graphics, collision detection, movement, and simple over-world interactions using libGDX in Java.</p>
 			<div class = "youtubecontainer">
 				<iframe class="youtubevideo" src="https://www.youtube.com/embed/REkh-ifeHqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
@@ -206,8 +214,8 @@
 <div id = "contact">
 	<h1 id = "contact-title" class ="title"> Contact </h1>
 	<h4 class = "contact-info">m.ilog95@gmail.com</h4>
-	I'm open to freelance work! <br/>
-	Unity Game Development, Game Design, or Web Development! <br/>
+	I'm open to freelance work! <br/><br/>
+	Unity Game Development, Game Design, or Web Development! <br/><br/>
 	Please don't hesitate to contact me! :)
 	<div  class = "contact-container">
 		<div id = "contact-form">
@@ -215,7 +223,7 @@
 				<input id="inp-name" type="text" name="name" placeholder="Name">
 				<input id="inp-email" type="email" name="email" placeholder="Email">
 				<input id="inp-subject" type="text" name="subject" placeholder="Subject">
-				<textarea id="inp-message" name="message" placeholder="Message"></textarea>
+				<textarea id="inp-message" name="message" placeholder="What's up? Got a quest for me? How good's the loot???"></textarea>
 				<button id="submit-butt" type="submit">Submit</button>
 			</form>
 		</div>
