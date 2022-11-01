@@ -1,8 +1,20 @@
 @media screen and (orientation: portrait)
 {	
+	.projects-container
+	{
+		font-size: 1.4vw;
+	}
+
+	.project p
+	{
+		font-size: 1.1vw;
+	}
+
 	.project
 	{
-		height: 35vh;
+		width: 45%;
+		height: 40vw;
+		margin: 2.5% auto;
 	}
 
 	#profilepic
@@ -22,9 +34,21 @@
 
 @media screen and (orientation: landscape)
 {	
+	.projects-container
+	{
+		font-size: 0.85vw;
+	}
+
+	.project p
+	{
+		font-size: 0.75vw;
+	}
+
 	.project
 	{
-		height: 65vh;
+		width: 29.5%;
+		height: 25vw;
+		margin: 1% auto;
 	}
 
 	#profilepic
