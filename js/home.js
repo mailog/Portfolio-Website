@@ -32,6 +32,7 @@ $(window).scroll(function(){
 	document.getElementById("home-txt").style.color = selectedColor;
 	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = selectedColor; 
 	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[1].style.color = unselectedColor; 
 	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     }   
     else if($(window).scrollTop() - 100 <= 0)
@@ -44,6 +45,7 @@ $(window).scroll(function(){
 	document.getElementById("home-txt").style.color = selectedColor;
 	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = selectedColor; 
 	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[1].style.color = unselectedColor; 
 	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     } 
 	else if(isScrolledInto($('#projects'),$('#toolbar')))
@@ -56,6 +58,7 @@ $(window).scroll(function(){
 		document.getElementById("projects-txt").style.color = selectedColor;
 	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = unselectedColor; 
 	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = selectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[1].style.color = selectedColor; 
 	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     }    
 	else if(isScrolledInto($('#intro'),$('#toolbar')))
@@ -68,6 +71,8 @@ $(window).scroll(function(){
 		document.getElementById("home-txt").style.color = selectedColor;
 	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = selectedColor; 
 	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[1].style.color = unselectedColor; 
+
 	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = unselectedColor; 
     }
     else if(isScrolledInto($('#contact'),$('#toolbar')))
@@ -80,6 +85,8 @@ $(window).scroll(function(){
 		document.getElementById("contact-txt").style.color = selectedColor;
 	    document.getElementById("intro").getElementsByClassName("title")[0].style.color = unselectedColor; 
 	    document.getElementById("projects").getElementsByClassName("title")[0].style.color = unselectedColor; 
+	    document.getElementById("projects").getElementsByClassName("title")[1].style.color = unselectedColor; 
+
 	    document.getElementById("contact").getElementsByClassName("title")[0].style.color = selectedColor; 
     }
     lastScrollTop = st <= 0 ? 0 : st;
