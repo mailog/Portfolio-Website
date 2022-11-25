@@ -17,6 +17,17 @@
 		margin: 2.5% auto;
 	}
 
+	.projects img
+	{
+		width: 30vw;
+		height: 15vw;
+	}
+
+	.website
+	{
+		height: 25vw;	
+	}
+
 	#profilepic
 	{
 		width: 13.5%;
@@ -29,6 +40,15 @@
 		width: 18.75%;
 		top: 0%;
 		left: 0%;
+	}
+
+	.game-title
+	{
+		font-style: italic;
+		font-weight:bold;
+		color: #b71011;
+		text-align:center;
+		font-size: 2vw;
 	}
 }
 
@@ -51,6 +71,17 @@
 		margin: 1% auto;
 	}
 
+	.projects img
+	{
+		width: 20vw;
+		height: 10vw;
+	}
+
+	.website
+	{
+		height: 17.5vw;	
+	}
+
 	#profilepic
 	{
 		width: 9%;
@@ -63,5 +94,14 @@
 		width: 12.5%;
 		top: 0%;
 		left: 0%;
+	}
+
+	.game-title
+	{
+		font-style: italic;
+		font-weight:bold;
+		color: #b71011;
+		text-align:center;
+		font-size: 2vw;
 	}
 }
