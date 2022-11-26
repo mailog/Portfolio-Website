@@ -8,6 +8,7 @@
 	border: 1px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	box-shadow: 5px 5px grey;
 }
 
 #stats
@@ -60,6 +61,7 @@
 	margin-bottom: 1%;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+	box-shadow: 5px 5px grey;
 }
 
 .title
@@ -88,3 +90,22 @@
 	width: 5%;
 }
 
+
+#freelancestatus
+{
+	text-align: center; 
+	color:red;
+	animation: textshadow 3s;
+	/*animation-direction: alternate;*/
+	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+}
+
+@keyframes textshadow
+{
+	0%{ text-shadow: 3px 3px grey; }
+	25%{text-shadow: -3px 3px grey;}
+	50%{text-shadow: -3px -3px grey;}
+	75%{text-shadow: 3px -3px grey;}
+	100%{ text-shadow: 3px 3px grey; }
+}
