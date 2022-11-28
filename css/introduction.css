@@ -101,6 +101,11 @@
   	animation-timing-function: linear;
 }
 
+#freelancestatus:hover
+{
+	cursor:pointer;
+}
+
 @keyframes textshadow
 {
 	0%{ text-shadow: 3px 3px grey; }
