@@ -11,44 +11,6 @@ body{
 	color: white;
 }
 
-#gameplaygifs
-{
-	width: 75%;
-	margin: 0 auto;
-}
-
-#tl
-{
-	/*border: 1px;
-	border-top-left-radius: 15px;*/
-}
-
-#tr
-{
-	/*border: 1px;
-	border-top-right-radius: 15px;*/
-}
-
-#br
-{
-	border: 1px;
-	border-bottom-right-radius: 15px;
-}
-
-#bl
-{
-	border: 1px;
-	border-bottom-left-radius: 15px;
-}
-
-#gameplaygifs img
-{
-	display: inline-block;
-	width: 49%;
-	height: auto;
-	margin: 0;
-	padding: 0;
-}
 
 a, button, input, textarea
 {

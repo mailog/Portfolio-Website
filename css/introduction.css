@@ -1,19 +1,15 @@
 #topinfo
 {
-	width:50%;
 	background-color: #FCF5E5;
-	margin-left: 25%;
 	margin-top: 2%;
 	padding: 1%;
 	border: 1px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	box-shadow: 5px 5px grey;
 }
 
 #stats
 {
-	width: 60%;
 	display: inline-block;
 }
 
@@ -21,19 +17,16 @@
 {
 	width: 50%;
 	height: auto;
-	display:inline-block;
 }
 
 #megif
 {
-	width: 50%;
 	height: auto;
 	display:inline-block;
 }
 
 #maininfo
 {
-	width: 35%;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 5%;
@@ -44,16 +37,13 @@
 	width:100%;
 	background-color: #ffffff;
 	color:black;
-	font-size: 1vw;
 	padding-bottom: 1%;
 }
 
 .intro
 {	
-	margin-left: 25%;
 	display:inline-block;
 	background-color:#FCF5E5;
-	width: 50%;
 	overflow-wrap: normal;
 	border-top-style: dotted;
 	border-width: 3px;
@@ -61,7 +51,6 @@
 	margin-bottom: 1%;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	box-shadow: 5px 5px grey;
 }
 
 .title
@@ -69,7 +58,6 @@
 	text-align:center;
 	margin: 1% auto;
 	color: black;
-	font-size: 3vw;
 	transition: ease 0.5s;
 }
 
@@ -90,27 +78,3 @@
 	width: 5%;
 }
 
-
-#freelancestatus
-{
-	text-align: center; 
-	color:red;
-	animation: textshadow 3s;
-	/*animation-direction: alternate;*/
-	animation-iteration-count: infinite;
-  	animation-timing-function: linear;
-}
-
-#freelancestatus:hover
-{
-	cursor:pointer;
-}
-
-@keyframes textshadow
-{
-	0%{ text-shadow: 3px 3px grey; }
-	25%{text-shadow: -3px 3px grey;}
-	50%{text-shadow: -3px -3px grey;}
-	75%{text-shadow: 3px -3px grey;}
-	100%{ text-shadow: 3px 3px grey; }
-}

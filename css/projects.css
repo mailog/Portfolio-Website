@@ -33,15 +33,6 @@
 	border-radius: 10px;
 }
 
-.youtubecontainer
-{
-	position: relative;
-	margin: 1% auto;
-	width: 100%;
-	height: 0;
-	padding-bottom: 56.25%;
-}
-
 
 .youtubevideo
 {
@@ -86,7 +77,6 @@
 	display:inline-block;
 	border-radius: 10px;
 	padding: 0% 1%;
-	margin-left: 1%;
 	transition: all 0.1s;
 }
 
@@ -111,13 +101,6 @@
 	position: relative;
 	margin: 0% auto;
 	width: 100%;
-}
-
-#cover
-{
-	margin-top:1%;
-	width: 70%;
-	height: auto;
 }
 
 .game-title

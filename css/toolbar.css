@@ -38,16 +38,9 @@
 	text-align: right;
 }
 
-.toolbar-txt
-{
-	font-weight: bold;
-	font-size: 2vw;
-	transition: ease 0.5s;
-}
-
 .toolbar a
 {
-//	text-decoration:none;
+	text-decoration:none;
 }
 
 
