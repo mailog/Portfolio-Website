@@ -6,27 +6,32 @@
 	border: 1px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	font-size: 1.5vw;
 }
 
 #stats
 {
+	width: 45%;
 	display: inline-block;
 }
 
 #chart
 {
+	display:none;
 	width: 50%;
 	height: auto;
 }
 
 #megif
 {
+	width: 100%;
 	height: auto;
 	display:inline-block;
 }
 
 #maininfo
 {
+	width: 50%;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 5%;
