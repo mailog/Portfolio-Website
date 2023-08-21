@@ -28,7 +28,7 @@
 {
 	display:block;
 	height: auto;
-	width: 100vw;
+	width: 100%;
 	margin: 0 auto;
 	border-radius: 10px;
 }
